@@ -11,7 +11,7 @@ public class GcBlock extends Block
 		super(material);
 		
 		this.setCreativeTab(CreativeTabs.tabMaterials);
-		this.setRegistryName(unlocalizedname);
+		this.setUnlocalizedName(unlocalizedname);
 		this.setHardness(hardness);
 		this.setResistance(resistance);
 		
