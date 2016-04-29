@@ -1,5 +1,5 @@
 {
-    "parent": "gc:block/platnum_ore",
+    "parent": "gc:block/oreAluminum",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
