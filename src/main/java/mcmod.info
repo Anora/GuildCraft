@@ -1,0 +1,17 @@
+[
+{
+  "modid": "gc",
+  "name": "GuildCraft",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Anora"],
+  "credits": "The Forge and FML guys, for making a great modding system",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
+.

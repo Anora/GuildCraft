@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "gc:blocks/mystic_crafting_table_front",
+        "down": "gc:blocks/mystic_planks_oak",
+        "up": "gc:blocks/mystic_crafting_table_top",
+        "north": "gc:blocks/mystic_crafting_table_front",
+        "east": "gc:blocks/mystic_crafting_table_side",
+        "south": "gc:blocks/mystic_crafting_table_side",
+        "west": "gc:blocks/mystic_crafting_table_front"
+    }
+}
