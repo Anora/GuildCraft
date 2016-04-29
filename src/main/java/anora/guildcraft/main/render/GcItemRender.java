@@ -12,7 +12,7 @@ public class GcItemRender
 		//Ingots
 		regItem(GcItems.ingotCopper);
 		regItem(GcItems.ingotAluminum);
-		//regItem(GcItems.ingotBrass);
+		regItem(GcItems.ingotBrass);
 		regItem(GcItems.ingotBronze);
 		regItem(GcItems.ingotDragonite);
 		regItem(GcItems.ingotMythirll);
