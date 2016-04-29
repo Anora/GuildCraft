@@ -18,7 +18,7 @@ public class GcBlockRender
 		regBlock(GcBlocks.oreDragonite);
 		regBlock(GcBlocks.oreMythirll);
 		regBlock(GcBlocks.oreOrichalcum);
-		regBlock(GcBlocks.orePlatnum);
+		regBlock(GcBlocks.orePlatinum);
 		regBlock(GcBlocks.oreSilver);
 		regBlock(GcBlocks.oreTin);
 		
