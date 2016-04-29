@@ -36,14 +36,15 @@ item.dragonite_sword.name=Dragonite Sword
 item.mystic_sword.name=Mystic Sword
 item.orichalcum_sword=Orichalcum Sword
 
-tile.dragonite_ore.name=Dragonite Ore
-tile.aluminum_ore.name=Aluminum Ore
-tile.copper_ore.name=Copper Ore
-tile.tin_ore.name=Tin Ore
-tile.platnum_ore.name=Platnium Ore
-tile.silver_ore.name=Silver Ore
-tile.mythirll_ore.name=Mythril Ore
-tile.orichalcum_ore.name=Orichalcum Ore
+tile.oreDragonite.name=Dragonite Ore
+tile.oreAluminum.name=Aluminum Ore
+tile.oreCopper.name=Copper Ore
+tile.oreTin.name=Tin Ore
+tile.orePlatinum.name=Platinum Ore
+tile.oreSilver.name=Silver Ore
+tile.oreMythril.name=Mythril Ore
+tile.oreOrchalcum.name=Orichalcum Ore
+tile.oreZink.name=Zink Ore
 
 
 tile.mystic_crafting_table.name= Mystic Crafting table

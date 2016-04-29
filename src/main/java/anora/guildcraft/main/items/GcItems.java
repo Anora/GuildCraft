@@ -12,7 +12,7 @@ public class GcItems
 	public static Item ingotDragonite;
 	public static Item ingotAluminum;
 	public static Item ingotTin;
-	public static Item ingotPlatnum;
+	public static Item ingotPlatinum;
 	public static Item ingotSilver;
 	public static Item ingotMythirll;
 	public static Item ingotOrichalcum;
@@ -26,7 +26,7 @@ public class GcItems
 	public static Item nuggetBrass;
 	public static Item nuggetAluminum;
 	public static Item nuggetTin;
-	public static Item nuggetPlatnum;
+	public static Item nuggetPlatinum;
 	public static Item nuggetSilver;
 	public static Item nuggetMythirll;
 	public static Item nuggetOrichalcum;
@@ -76,7 +76,7 @@ public class GcItems
 		GameRegistry.registerItem(ingotZinc = new GcItem("ingotZinc"),"ingotZinc");
 		GameRegistry.registerItem(ingotAluminum = new GcItem("ingotAluminum"),"ingotAluminum");
 		GameRegistry.registerItem(ingotSilver = new GcItem("ingotSilver"),"ingotSilver");
-		GameRegistry.registerItem(ingotPlatnum = new GcItem("ingotPlatnum"),"ingotPlatnum");
+		GameRegistry.registerItem(ingotPlatinum = new GcItem("ingotPlatnum"),"ingotPlatnum");
 		GameRegistry.registerItem(ingotMythirll = new GcItem("ingotMythirll"),"ingotMythirll");
 		GameRegistry.registerItem(ingotDragonite = new GcItem("ingotDragonite"),"ingotDragonite");
 		GameRegistry.registerItem(ingotOrichalcum = new GcItem("ingotOrichalcum"),"ingotOrichalcum");
@@ -90,7 +90,7 @@ public class GcItems
 		GameRegistry.registerItem(nuggetBrass = new GcItem("nuggetBrass"),"nuggetBrass");
 		GameRegistry.registerItem(nuggetAluminum = new GcItem("nuggetAluminum"),"nuggetAluminum");
 		GameRegistry.registerItem(nuggetTin = new GcItem("nuggetTin"),"nuggetTin");
-		GameRegistry.registerItem(nuggetPlatnum = new GcItem("nuggetPlatnum"),"nuggetPlatnum");
+		GameRegistry.registerItem(nuggetPlatinum = new GcItem("nuggetPlatnum"),"nuggetPlatnum");
 		GameRegistry.registerItem(nuggetSilver = new GcItem("nuggetSilver"),"nuggetSilver");
 		GameRegistry.registerItem(nuggetMythirll = new GcItem("nuggetMythirll"),"nuggetMythirll");
 		GameRegistry.registerItem(nuggetOrichalcum = new GcItem("nuggetOrichalcum"),"nuggetOrichalcum");

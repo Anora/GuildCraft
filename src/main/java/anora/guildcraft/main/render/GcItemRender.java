@@ -17,7 +17,7 @@ public class GcItemRender
 		regItem(GcItems.ingotDragonite);
 		regItem(GcItems.ingotMythirll);
 		regItem(GcItems.ingotOrichalcum);
-		regItem(GcItems.ingotPlatnum);
+		regItem(GcItems.ingotPlatinum);
 		regItem(GcItems.ingotSilver);
 		regItem(GcItems.ingotTin);
 		regItem(GcItems.ingotZinc);
@@ -30,7 +30,7 @@ public class GcItemRender
 		regItem(GcItems.nuggetDragonite);
 		regItem(GcItems.nuggetMythirll);
 		regItem(GcItems.nuggetOrichalcum);
-		regItem(GcItems.nuggetPlatnum);
+		regItem(GcItems.nuggetPlatinum);
 		regItem(GcItems.nuggetSilver);
 		regItem(GcItems.nuggetTin);
 		regItem(GcItems.nuggetZinc);

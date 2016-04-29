@@ -17,7 +17,7 @@ public class GcWorldGen implements IWorldGenerator
 	private WorldGenerator oreAluminum;
 	private WorldGenerator oreCopper;
 	private WorldGenerator oreTin;
-	private WorldGenerator orePlatnum;
+	private WorldGenerator orePlatinum;
 	private WorldGenerator oreSilver;
 	private WorldGenerator oreMythirll;
 	private WorldGenerator oreOrichalcum;
@@ -30,7 +30,7 @@ public class GcWorldGen implements IWorldGenerator
 		this.oreDragonite = new GcWorldGenMinable(GcBlocks.oreDragonite.getDefaultState(), 3);
 		this.oreMythirll = new GcWorldGenMinable(GcBlocks.oreMythirll.getDefaultState(), 5);
 		this.oreOrichalcum = new GcWorldGenMinable(GcBlocks.oreOrichalcum.getDefaultState(), 3);
-		this.orePlatnum = new GcWorldGenMinable(GcBlocks.orePlatnum.getDefaultState(), 4);
+		this.orePlatinum = new GcWorldGenMinable(GcBlocks.orePlatinum.getDefaultState(), 4);
 		this.oreSilver = new GcWorldGenMinable(GcBlocks.oreSilver.getDefaultState(), 4);
 		this.oreTin = new GcWorldGenMinable(GcBlocks.oreTin.getDefaultState(), 6);
 		//nether
@@ -53,7 +53,7 @@ public class GcWorldGen implements IWorldGenerator
 			this.runGenerator(this.oreDragonite, world, random, chunkX, chunkZ, 8, 3, 16);
 			this.runGenerator(this.oreMythirll, world, random, chunkX, chunkZ, 10, 4, 15);
 			this.runGenerator(this.oreOrichalcum, world, random, chunkX, chunkZ, 7, 3, 10);
-			this.runGenerator(this.orePlatnum, world, random, chunkX, chunkZ, 10, 0, 45);
+			this.runGenerator(this.orePlatinum, world, random, chunkX, chunkZ, 10, 0, 45);
 			this.runGenerator(this.oreSilver, world, random, chunkX, chunkZ, 10, 4, 20);
 			this.runGenerator(this.oreTin, world, random, chunkX, chunkZ, 20, 0, 75);
 			

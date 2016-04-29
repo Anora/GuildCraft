@@ -8,5 +8,6 @@
         "east": "gc:blocks/mystic_crafting_table_side",
         "south": "gc:blocks/mystic_crafting_table_side",
         "west": "gc:blocks/mystic_crafting_table_front"
+
     }
 }
