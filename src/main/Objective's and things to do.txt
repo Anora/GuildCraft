@@ -1,0 +1,93 @@
+Notes on GuildCraft and what it should accomplish/have
+
+GuildCraft is based on the popular MMO GuildWars but implements only small aspects from it like the
+Ore and some crafting based things.
+
+Item to put in:
+    Dragonite ingot         done(will be retextured)
+    Dragonite nugget        done(will be retextured)
+    Dragonite stick         done(will be retextured)
+    Mystic rod              done(will be retextured)
+    Mystic stone            done(will be retextured)
+    Dragonite Pick			needs stats and texture
+    Dragonite axe    		needs stats and texture
+    Dragonite shovel		needs stats and texture
+    Dragonite hoe			needs stats and texture
+    Dragonite bow			needs stats and texture
+    Mystic pick				needs stats and texture
+    Mystic axe				needs stats and texture
+    Mystic shovel			needs stats and texture
+    Mystic how				needs stats and texture
+    Mystic bow				needs stats and texture
+    Coper pick				done(will be retextured)
+    Coper axe				done(will be retextured)
+    Coper shovel			done(will be retextured)
+    Coper hoe				needs stats and texture
+    Bronz pick				done(will be retextured)
+    Bronz axe				done(will be retextured)
+    Bronz shovel			done(will be retextured)
+    Bronz hoe				needs stats and texture
+    Orichalcum pick			needs stats and texture
+    Orichalcum axe			needs stats and texture
+    Orichalcum shovel		needs stats and texture
+    Orichalcum hoe			needs stats and texture
+    Bronz ingot				done(will be retextured)
+	Brass ingot				done(will be retextured)
+	Coper ingot				done(will be retextured)
+	Silver ingot
+	more to come(maybe)
+    Helmet of revealing(Will get rid of void fog) (will need item texture)
+    
+Blocks/Ore to put in
+    Dragionite ore          done
+    Mystic crafting table   needs stats and texture
+    Copper ore				done
+    Tin ore					done
+    Aluminum ore			done
+    Platnum ore				done
+    Mythirll ore			done
+    Orichalcum ore			needs texture
+	Silver ore				done
+    more to come(maybe)
+    
+Multyblock object to put in:
+    Mystic Forge(multyblock)           to be implemented
+    
+    
+Mobs/Boss to put in:
+    Genie(boss)             to be implemented
+    Centaur(many type's)    to be implemented
+    harpies                 to be implemented
+
+Mod intergration:
+    Tinkers                 to be implemented
+    EnderIO                 to be implemented
+    MineFactory Reloaded    to be implemented (porting in progress)
+    Thaumcraft              Undesided
+    
+WoldGen    					partialy done or needs tweaking
+	
+own API						to be implemented
+    
+The things listed above are the things I have planed so far.
+
+geine:
+things that I would like to happen for the boss is that it must be summoned via some kind of retual 
+or crafting object in the world must be captured by the primary means from the mod it self or can 
+be captured using sould jars from EnderIO or the Safary net from MineFactory Reloaded(if its ported)
+If he is kild instaid He will 100% always drop a Mystic Stone or captured he is to be used whit 
+the Mystic Forge
+    Aditional note:
+    to caputure the boss his health will need to be below 50% and only a Mystic sword or Mystick Bow
+    can damig the boss
+
+Mystic Forge:
+How I would like this to work is pretty simmilar to how the one in GuildWars 2 works, put in 4 items
+randomly or specific and get an out put (right combination chance of better version, special 
+combination = legendary item. No of these items will be from the game but all item's from Minecraft
+or its mods depending on implementation
+  
+Mobs:
+All mobs will have standard drop rates on Minecraft items or moded items they can wild, but will have a
+low chance of droping a mystic stone(will be the first way to get one) as you will need a to craft a
+Mystic sword or a Mystic bow
