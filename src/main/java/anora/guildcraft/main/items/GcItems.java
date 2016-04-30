@@ -14,7 +14,7 @@ public class GcItems
 	public static Item ingotTin;
 	public static Item ingotPlatinum;
 	public static Item ingotSilver;
-	public static Item ingotMythirll;
+	public static Item ingotMythirl;
 	public static Item ingotOrichalcum;
 	public static Item ingotZinc;
 	
@@ -28,7 +28,7 @@ public class GcItems
 	public static Item nuggetTin;
 	public static Item nuggetPlatinum;
 	public static Item nuggetSilver;
-	public static Item nuggetMythirll;
+	public static Item nuggetMythirl;
 	public static Item nuggetOrichalcum;
 	public static Item nuggetZinc;
 	
@@ -77,7 +77,7 @@ public class GcItems
 		GameRegistry.registerItem(ingotAluminum = new GcItem("ingotAluminum"),"ingotAluminum");
 		GameRegistry.registerItem(ingotSilver = new GcItem("ingotSilver"),"ingotSilver");
 		GameRegistry.registerItem(ingotPlatinum = new GcItem("ingotPlatnum"),"ingotPlatnum");
-		GameRegistry.registerItem(ingotMythirll = new GcItem("ingotMythirll"),"ingotMythirll");
+		GameRegistry.registerItem(ingotMythirl = new GcItem("ingotMythirll"),"ingotMythirll");
 		GameRegistry.registerItem(ingotDragonite = new GcItem("ingotDragonite"),"ingotDragonite");
 		GameRegistry.registerItem(ingotOrichalcum = new GcItem("ingotOrichalcum"),"ingotOrichalcum");
 		GameRegistry.registerItem(ingotBrass = new GcItem("ingotBrass"), "ingotBrass");
@@ -92,7 +92,7 @@ public class GcItems
 		GameRegistry.registerItem(nuggetTin = new GcItem("nuggetTin"),"nuggetTin");
 		GameRegistry.registerItem(nuggetPlatinum = new GcItem("nuggetPlatnum"),"nuggetPlatnum");
 		GameRegistry.registerItem(nuggetSilver = new GcItem("nuggetSilver"),"nuggetSilver");
-		GameRegistry.registerItem(nuggetMythirll = new GcItem("nuggetMythirll"),"nuggetMythirll");
+		GameRegistry.registerItem(nuggetMythirl = new GcItem("nuggetMythirll"),"nuggetMythirll");
 		GameRegistry.registerItem(nuggetOrichalcum = new GcItem("nuggetOrichalcum"),"nuggetOrichalcum");
 		GameRegistry.registerItem(nuggetZinc = new GcItem("nuggetZinc"),"nuggetZinc");
 		

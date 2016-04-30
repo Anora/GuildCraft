@@ -14,7 +14,7 @@ public class GcBlocks
 	public static Block oreTin;
 	public static Block orePlatinum;
 	public static Block oreSilver;
-	public static Block oreMythirll;
+	public static Block oreMythirl;
 	public static Block oreOrichalcum;
 	public static Block oreZink;
 	
@@ -33,7 +33,7 @@ public class GcBlocks
 		GameRegistry.registerBlock(oreAluminum = new GcBlock("oreAluminum", Material.rock, 3, 15), "oreAluminum");
 		GameRegistry.registerBlock(oreSilver = new GcBlock("oreSilver", Material.rock, 3, 15), "oreSilver");
 		GameRegistry.registerBlock(orePlatinum = new GcBlock("orePlatinum", Material.rock, 3, 15), "orePlatinum");
-		GameRegistry.registerBlock(oreMythirll = new GcBlock("oreMythirll", Material.rock, 3, 15), "oreMythirll");
+		GameRegistry.registerBlock(oreMythirl = new GcBlock("oreMythirll", Material.rock, 3, 15), "oreMythirll");
 		GameRegistry.registerBlock(oreDragonite = new GcBlock("oreDragonite", Material.rock, 4, 15), "oreDragonite");
 		GameRegistry.registerBlock(oreOrichalcum = new GcBlock("oreOrichalcum", Material.rock, 4, 15), "oreOrichalcum");
 		GameRegistry.registerBlock(oreZink = new GcBlock("oreZink", Material.rock, 4, 15), "oreZink");

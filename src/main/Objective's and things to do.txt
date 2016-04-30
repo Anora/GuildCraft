@@ -36,6 +36,7 @@ Item to put in:
 	Coper ingot				done(will be retextured)
 	Silver ingot
 	more to come(maybe)
+    Helmet of revealing(Will get rid of void fog) (will need item texture)
     
 Blocks/Ore to put in
     Dragionite ore          done
