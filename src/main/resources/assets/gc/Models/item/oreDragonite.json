@@ -1,5 +1,5 @@
 {
-    "parent": "gc:block/dragonite_ore",
+    "parent": "gc:block/oreDragonite",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
