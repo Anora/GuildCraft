@@ -40,7 +40,7 @@ public class GcItemRender
 		regItem(GcItems.stickDragonite);
 		
 		//Unique
-		//regItem(GcItems.stoneMystic);
+		regItem(GcItems.stoneMystic);
 		
 	}
 
