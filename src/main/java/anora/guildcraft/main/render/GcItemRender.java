@@ -20,7 +20,7 @@ public class GcItemRender
 		regItem(GcItems.ingotOrichalcum);
 		regItem(GcItems.ingotPlatinum);
 		regItem(GcItems.ingotSilver);
-		regItem(GcItems.ingotTim);
+		regItem(GcItems.ingotTime);
 		regItem(GcItems.ingotZinc);
 		
 		//Nuggets

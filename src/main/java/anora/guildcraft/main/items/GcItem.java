@@ -1,5 +1,7 @@
 package anora.guildcraft.main.items;
 
+import anora.guildcraft.main.GcCreativeTab;
+import anora.guildcraft.main.GcGlobal;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -9,7 +11,7 @@ public class GcItem extends Item
 	{
 		super();
 	
-		this.setCreativeTab(CreativeTabs.tabMaterials);
+		this.setCreativeTab(GcGlobal.gcCreativeTab);
 		this.setUnlocalizedName(name);
 
 	}
