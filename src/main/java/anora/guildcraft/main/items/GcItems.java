@@ -11,7 +11,7 @@ public class GcItems
 	public static Item ingotBrass;
 	public static Item ingotDragonite;
 	public static Item ingotAluminum;
-	public static Item ingotTim;
+	public static Item ingotTime;
 	public static Item ingotPlatinum;
 	public static Item ingotSilver;
 	public static Item ingotMythirl;
@@ -40,7 +40,7 @@ public class GcItems
 	{
 		//Ingots
 		GameRegistry.registerItem(ingotCopper = new GcItem("ingotcopper"),"ingotCopper");
-		GameRegistry.registerItem(ingotTim = new GcItem("ingotTim"),"ingotTim");
+		GameRegistry.registerItem(ingotTime = new GcItem("ingotTime"),"ingotTime");
 		GameRegistry.registerItem(ingotBronze = new GcItem("ingotBronze"),"ingotBronze");
 		GameRegistry.registerItem(ingotZinc = new GcItem("ingotZinc"),"ingotZinc");
 		GameRegistry.registerItem(ingotAluminum = new GcItem("ingotAluminum"),"ingotAluminum");

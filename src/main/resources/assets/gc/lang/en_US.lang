@@ -46,5 +46,7 @@ tile.oreMythril.name=Mithril Ore
 tile.oreOrchalcum.name=Orichalcum Ore
 tile.oreZink.name=Zink Ore
 
+itemGroup.gcCreative=GuildCraft
+
 
 tile.mystic_crafting_table.name= Mystic Crafting table
