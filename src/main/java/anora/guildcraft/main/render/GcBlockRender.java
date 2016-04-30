@@ -31,4 +31,3 @@ public class GcBlockRender
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(GcGlobal.MOD_ID + ":" + block.getUnlocalizedName().substring(5), "inventory"));
 	}
 }
-
