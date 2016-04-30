@@ -1,9 +1,10 @@
 package anora.guildcraft.main.render;
 
+import anora.guildcraft.main.GcGlobal;
 import anora.guildcraft.main.items.GcItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
-import net.minecraftforge.client.model.ModelLoader;
 
 public class GcItemRender
 {
@@ -19,7 +20,7 @@ public class GcItemRender
 		regItem(GcItems.ingotOrichalcum);
 		regItem(GcItems.ingotPlatinum);
 		regItem(GcItems.ingotSilver);
-		regItem(GcItems.ingotTin);
+		regItem(GcItems.ingotTim);
 		regItem(GcItems.ingotZinc);
 		
 		//Nuggets
@@ -32,20 +33,20 @@ public class GcItemRender
 		regItem(GcItems.nuggetOrichalcum);
 		regItem(GcItems.nuggetPlatinum);
 		regItem(GcItems.nuggetSilver);
-		regItem(GcItems.nuggetTin);
+		regItem(GcItems.nuggetTim);
 		regItem(GcItems.nuggetZinc);
 		
 		//crafted
 		regItem(GcItems.stickDragonite);
 		
 		//Unique
-		regItem(GcItems.stoneMystic);
+		//regItem(GcItems.stoneMystic);
 		
 	}
 
 	private static void regItem(Item item)
 	{
-		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+		//ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory")); do not use
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(GcGlobal.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
 	}
 }
-

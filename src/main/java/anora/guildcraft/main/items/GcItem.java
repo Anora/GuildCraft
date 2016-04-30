@@ -8,8 +8,9 @@ public class GcItem extends Item
 	public GcItem(String name)
 	{
 		super();
-		
-		this.setRegistryName(name);
+	
 		this.setCreativeTab(CreativeTabs.tabMaterials);
+		this.setUnlocalizedName(name);
+
 	}
 }

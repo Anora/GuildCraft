@@ -1,6 +1,7 @@
 package anora.guildcraft.main.proxy;
 
 import anora.guildcraft.main.render.GcBlockRender;
+import anora.guildcraft.main.render.GcItemRender;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -20,6 +21,7 @@ public class ClientProxy extends CommonProxy{
 		super.Init(event);
 		
 		GcBlockRender.registerBlockRender();
+		GcItemRender.registerItemRender();
 	}
 	
 	
