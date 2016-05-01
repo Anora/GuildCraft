@@ -5,6 +5,8 @@ import anora.guildcraft.main.items.GcItems;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+import static net.minecraft.init.Items.stick;
+
 /**
  * Created by Ty's PC on 4/30/2016.
  */
@@ -326,6 +328,254 @@ public class GcRecpies {
 
                 });
 
+        //TOOLS!!!
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.pickaxeBronze),
+                new Object[]{
+                        "###",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotBronze,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.spadeBronze),
+                new Object[]{
+                        " # ",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotBronze,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.axeBronze),
+                new Object[]{
+                        "## ",
+                        "#* ",
+                        " * ",
+                        '#', GcItems.ingotBronze,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.swordBronze),
+                new Object[]{
+                        " # ",
+                        " # ",
+                        " * ",
+                        '#', GcItems.ingotBronze,
+                        '*', stick
+
+                });
+        //Copper Tools
+        GameRegistry.addRecipe(new ItemStack(GcItems.pickaxeCopper),
+                new Object[]{
+                        "###",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotCopper,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.spadeCopper),
+                new Object[]{
+                        " # ",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotCopper,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.axeCopper),
+                new Object[]{
+                        "## ",
+                        "#* ",
+                        " * ",
+                        '#', GcItems.ingotCopper,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.swordCopper),
+                new Object[]{
+                        " # ",
+                        " # ",
+                        " * ",
+                        '#', GcItems.ingotCopper,
+                        '*', stick
+
+                });
+
+        //Dragonite Tools
+        GameRegistry.addRecipe(new ItemStack(GcItems.pickaxeDragonite),
+                new Object[]{
+                        "###",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotDragonite,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.spadeDragonite),
+                new Object[]{
+                        " # ",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotDragonite,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.axeDragonite),
+                new Object[]{
+                        "## ",
+                        "#* ",
+                        " * ",
+                        '#', GcItems.ingotDragonite,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.swordDragonite),
+                new Object[]{
+                        " # ",
+                        " # ",
+                        " * ",
+                        '#', GcItems.ingotDragonite,
+                        '*', stick
+
+                });
+
+        //Mythirl Tools
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.pickaxeMythirl),
+                new Object[]{
+                        "###",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotMythirl,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.spadeMythirl),
+                new Object[]{
+                        " # ",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotMythirl,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.axeMythirl),
+                new Object[]{
+                        "## ",
+                        "#* ",
+                        " * ",
+                        '#', GcItems.ingotMythirl,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.swordMythirl),
+                new Object[]{
+                        " # ",
+                        " # ",
+                        " * ",
+                        '#', GcItems.ingotMythirl,
+                        '*', stick
+
+                });
+
+        //Orichalcum Tools
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.pickaxeOrichalcum),
+                new Object[]{
+                        "###",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotOrichalcum,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.spadeOrichalcum),
+                new Object[]{
+                        " # ",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotOrichalcum,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.axeOrichalcum),
+                new Object[]{
+                        "## ",
+                        "#* ",
+                        " * ",
+                        '#', GcItems.ingotOrichalcum,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.swordOrichalcum),
+                new Object[]{
+                        " # ",
+                        " # ",
+                        " * ",
+                        '#', GcItems.ingotOrichalcum,
+                        '*', stick
+
+                });
+
+        //Silver Tools
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.pickaxeSilver),
+                new Object[]{
+                        "###",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotSilver,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.spadeSilver),
+                new Object[]{
+                        " # ",
+                        " * ",
+                        " * ",
+                        '#', GcItems.ingotSilver,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.axeSilver),
+                new Object[]{
+                        "## ",
+                        "#* ",
+                        " * ",
+                        '#', GcItems.ingotSilver,
+                        '*', stick
+
+                });
+
+        GameRegistry.addRecipe(new ItemStack(GcItems.swordSilver),
+                new Object[]{
+                        " # ",
+                        " # ",
+                        " * ",
+                        '#', GcItems.ingotSilver,
+                        '*', stick
+
+                });
 
     }
 }

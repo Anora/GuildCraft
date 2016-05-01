@@ -34,7 +34,7 @@ Item to put in:
     Bronz ingot				done(will be retextured)
 	Brass ingot				done(will be retextured)
 	Coper ingot				done(will be retextured)
-	Silver ingot
+	Silver ingot            done
 	more to come(maybe)
     Helmet of revealing(Will get rid of void fog) (will need item texture)
     

@@ -3,32 +3,25 @@ package anora.guildcraft.main.items;
 import anora.guildcraft.main.items.tools.GcaxeBronze;
 import anora.guildcraft.main.items.tools.GcaxeCopper;
 import anora.guildcraft.main.items.tools.GcaxeDragonite;
-import anora.guildcraft.main.items.tools.GcaxeMythirl;
-import anora.guildcraft.main.items.tools.GcaxeOrichalcum;
 import anora.guildcraft.main.items.tools.GcaxeSilver;
 import anora.guildcraft.main.items.tools.GchoeBronze;
 import anora.guildcraft.main.items.tools.GchoeCopper;
 import anora.guildcraft.main.items.tools.GchoeDragonite;
 import anora.guildcraft.main.items.tools.GchoeMythirl;
-import anora.guildcraft.main.items.tools.GchoeOrichalcum;
 import anora.guildcraft.main.items.tools.GchoeSilver;
 import anora.guildcraft.main.items.tools.GcpickaxeBronze;
 import anora.guildcraft.main.items.tools.GcpickaxeCopper;
 import anora.guildcraft.main.items.tools.GcpickaxeDragonite;
 import anora.guildcraft.main.items.tools.GcpickaxeMythirl;
-import anora.guildcraft.main.items.tools.GcpickaxeOrichalcum;
 import anora.guildcraft.main.items.tools.GcpickaxeSilver;
 import anora.guildcraft.main.items.tools.GcspadeBronze;
 import anora.guildcraft.main.items.tools.GcspadeCopper;
 import anora.guildcraft.main.items.tools.GcspadeDragonite;
-import anora.guildcraft.main.items.tools.GcspadeMythirl;
-import anora.guildcraft.main.items.tools.GcspadeOrichalcum;
 import anora.guildcraft.main.items.tools.GcspadeSilver;
 import anora.guildcraft.main.items.tools.GcswordBronze;
 import anora.guildcraft.main.items.tools.GcswordCopper;
 import anora.guildcraft.main.items.tools.GcswordDragonite;
 import anora.guildcraft.main.items.tools.GcswordMythirl;
-import anora.guildcraft.main.items.tools.GcswordOrichalcum;
 import anora.guildcraft.main.items.tools.GcswordSilver;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
@@ -40,10 +33,10 @@ public class GcItems
 	//tools
 	public static ToolMaterial toolsCopper = EnumHelper.addToolMaterial("toolCopper", 1, 180, 4.0F, 1.5F, 10);
 	public static ToolMaterial toolsBronze = EnumHelper.addToolMaterial("toolsBronze", 2, 350, 6.0F, 2.0F, 15);
-	public static ToolMaterial toolsDragonite = EnumHelper.addToolMaterial("toolDragonite", 4, 2030, 9.0F, 3.5F, 17);
+	public static ToolMaterial toolsDragonite = EnumHelper.addToolMaterial("toolDragonite", 4, 180, 9.0F, 3.5F, 17);
 	public static ToolMaterial toolsSilver = EnumHelper.addToolMaterial("toolSilver", 2, 550, 6.0F, 1.8F, 16);
-	public static ToolMaterial toolsMythirl = EnumHelper.addToolMaterial("toolMythirl", 3, 1375, 12.0F, 2.5F, 15);
-	public static ToolMaterial toolsOrichalcum = EnumHelper.addToolMaterial("toolOrichalcum", 5, 2856, 10.0F, 4.0F, 20);
+	public static ToolMaterial toolsMythirl = EnumHelper.addToolMaterial("toolMythirl", 3, 1375, 12.0F, 2.5F, 12);
+	public static ToolMaterial toolsOrichalcum = EnumHelper.addToolMaterial("toolOrichalcum", 5, 180, 10.0F, 4.0F, 20);
 
 	public static Item pickaxeCopper;
 	public static Item axeCopper;
@@ -151,11 +144,7 @@ public class GcItems
 		GameRegistry.registerItem(hoeMythirl = new GchoeMythirl("hoeMythirl", toolsMythirl), "hoeMythirl");
 		GameRegistry.registerItem(swordMythirl = new GcswordMythirl("swordMythirl", toolsMythirl), "swordMythirl");
 		
-		GameRegistry.registerItem(pickaxeOrichalcum = new GcpickaxeOrichalcum("pickaxeOrichalcum", toolsOrichalcum), "pickaxeOrichalcum");
-		GameRegistry.registerItem(axeOrichalcum = new GcaxeOrichalcum("axeOrichalcum", toolsOrichalcum), "axeOrichalcum");
-		GameRegistry.registerItem(spadeOrichalcum = new GcspadeOrichalcum("spadeOrichalcum", toolsOrichalcum), "spadeOrichalcum");
-		GameRegistry.registerItem(hoeOrichalcum = new GchoeOrichalcum("hoeOrichalcum", toolsOrichalcum), "hoeOrichalcum");
-		GameRegistry.registerItem(swordOrichalcum = new GcswordOrichalcum("swordOrichalcum", toolsOrichalcum), "swordOrichalcum");
+
 		
 		//Ingots
 		GameRegistry.registerItem(ingotCopper = new GcItem("ingotcopper"),"ingotCopper");

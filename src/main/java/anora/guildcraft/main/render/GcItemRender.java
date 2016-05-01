@@ -10,43 +10,6 @@ public class GcItemRender
 {
 	public static void registerItemRender()
 	{
-		//Tools
-		regItem(GcItems.pickaxeCopper);
-		regItem(GcItems.axeCopper);
-		regItem(GcItems.hoeCopper);
-		regItem(GcItems.spadeCopper);
-		regItem(GcItems.swordCopper);
-		
-		regItem(GcItems.pickaxeBronze);
-		regItem(GcItems.axeBronze);
-		regItem(GcItems.hoeBronze);
-		regItem(GcItems.spadeBronze);
-		regItem(GcItems.swordBronze);
-		
-		regItem(GcItems.pickaxeDragonite);
-		regItem(GcItems.axeDragonite);
-		regItem(GcItems.hoeDragonite);
-		regItem(GcItems.spadeDragonite);
-		regItem(GcItems.swordDragonite);
-		
-		regItem(GcItems.pickaxeSilver);
-		regItem(GcItems.axeSilver);
-		regItem(GcItems.hoeSilver);
-		regItem(GcItems.spadeSilver);
-		regItem(GcItems.swordSilver);
-		
-		regItem(GcItems.pickaxeMythirl);
-		regItem(GcItems.axeMythirl);
-		regItem(GcItems.hoeMythirl);
-		regItem(GcItems.spadeMythirl);
-		regItem(GcItems.swordMythirl);
-		
-		regItem(GcItems.pickaxeOrichalcum);
-		regItem(GcItems.axeOrichalcum);
-		regItem(GcItems.hoeOrichalcum);
-		regItem(GcItems.spadeOrichalcum);
-		regItem(GcItems.swordOrichalcum);
-		
 		//Ingots
 		regItem(GcItems.ingotCopper);
 		regItem(GcItems.ingotAluminum);
@@ -73,12 +36,12 @@ public class GcItemRender
 		regItem(GcItems.nuggetTim);
 		regItem(GcItems.nuggetZinc);
 		
-		//Gems
+		//gems
 		regItem(GcItems.gemTopaz);
 		regItem(GcItems.gemPeridot);
 		regItem(GcItems.gemRuby);
 		
-		//Crafted
+		//crafted
 		regItem(GcItems.stickDragonite);
 		
 		//Unique
