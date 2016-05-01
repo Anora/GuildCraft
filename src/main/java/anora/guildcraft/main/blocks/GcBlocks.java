@@ -24,17 +24,17 @@ public class GcBlocks
 	public static Block oreRuby;
 	
 	//blocks
-	public static Block dragoniteBlock;
-	public static Block aluminumBlock;
-	public static Block copperBlock;
-	public static Block tinBlock;
-	public static Block platinumBlock;
-	public static Block silverBlock;
-	public static Block mythirlBlock;
-	public static Block orichalcumBlock;
-	public static Block zincBlock;
-	public static Block bronzeBlock;
-	public static Block brassBlock;
+	public static Block blockDragonite;
+	public static Block blockAluminum;
+	public static Block blockCopper;
+	public static Block blockTin;
+	public static Block blockPlatinum;
+	public static Block blockSilver;
+	public static Block blockMythirl;
+	public static Block blockOrichalcum;
+	public static Block blockZinc;
+	public static Block blockBronze;
+	public static Block blockBrass;
 
 	
 	//crafting block
@@ -61,18 +61,17 @@ public class GcBlocks
 		GameRegistry.registerBlock(oreRuby = new GcBlock("oreRuby", Material.rock, 3, 15), "oreRuby");
 		
 		//Blocks
-
-		GameRegistry.registerBlock(dragoniteBlock = new GcBlock("dragoniteBlock", Material.iron, 5, 10), "dragoniteBlock");
-		GameRegistry.registerBlock(aluminumBlock = new GcBlock("aluminumBlock", Material.iron, 5, 10), "aluminumBlock");
-		GameRegistry.registerBlock(copperBlock = new GcBlock("copperBlock", Material.iron, 5, 10), "copperBlock");
-		GameRegistry.registerBlock(tinBlock = new GcBlock("tinBlock", Material.iron, 5, 10), "tinBlock");
-		GameRegistry.registerBlock(platinumBlock = new GcBlock("platinumBlock", Material.iron, 5, 10), "platinumBlock");
-		GameRegistry.registerBlock(silverBlock = new GcBlock("silverBlock", Material.iron, 5, 10), "silverBlock");
-		GameRegistry.registerBlock(mythirlBlock = new GcBlock("mythirlBlock", Material.iron, 5, 10), "mythirlBlock");
-		GameRegistry.registerBlock(orichalcumBlock = new GcBlock("orichalcumBlock", Material.iron, 5, 10), "orichalcumBlock");
-		GameRegistry.registerBlock(zincBlock = new GcBlock("zincBlock", Material.iron, 5, 10), "zincBlock");
-		GameRegistry.registerBlock(bronzeBlock = new GcBlock("bronzeBlock", Material.iron, 5, 10), "bronzeBlock");
-		GameRegistry.registerBlock(brassBlock = new GcBlock("brassBlock", Material.iron, 5, 10), "brassBlock");
+		GameRegistry.registerBlock(blockDragonite = new GcBlock("blockDragonite", Material.iron, 5, 10), "blockDragonite");
+		GameRegistry.registerBlock(blockAluminum = new GcBlock("blockAluminum", Material.iron, 5, 10), "blockAluminum");
+		GameRegistry.registerBlock(blockCopper = new GcBlock("blockCopper", Material.iron, 5, 10), "blockCopper");
+		GameRegistry.registerBlock(blockTin = new GcBlock("blockTin", Material.iron, 5, 10), "blockTin");
+		GameRegistry.registerBlock(blockPlatinum = new GcBlock("blockPlatinum", Material.iron, 5, 10), "blockPlatinum");
+		GameRegistry.registerBlock(blockSilver = new GcBlock("blockSilver", Material.iron, 5, 10), "blockSilver");
+		GameRegistry.registerBlock(blockMythirl = new GcBlock("blockMythirl", Material.iron, 5, 10), "blockMythirl");
+		GameRegistry.registerBlock(blockOrichalcum = new GcBlock("blockOrichalcum", Material.iron, 5, 10), "blockOrichalcum");
+		GameRegistry.registerBlock(blockZinc = new GcBlock("blockZinc", Material.iron, 5, 10), "blockZinc");
+		GameRegistry.registerBlock(blockBronze = new GcBlock("blockBronze", Material.iron, 5, 10), "blockBronze");
+		GameRegistry.registerBlock(blockBrass = new GcBlock("blockBrass", Material.iron, 5, 10), "blockBrass");
 		//GameRegistry.registerBlock(tableMystic = new GcBlock("tableMystic"),Material.iron)
 		//GameRegistry.registerBlock(furnesAloyMysticIdle = new GcBlock(furnesAloyMysticIdle),Material.iron)
 		//GameRegistry.registerBlock(furnesAloyMysticActive = new GcBlock(furnesAloyMysticActive),Material.iron)

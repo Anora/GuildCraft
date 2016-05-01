@@ -15,7 +15,7 @@ public class GcRecpies {
 
 
         //INGOTS --> BLOCKS
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.copperBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockCopper),
                 new Object[]{
                         "###",
                         "###",
@@ -24,7 +24,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.aluminumBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockAluminum),
                 new Object[]{
                         "###",
                         "###",
@@ -33,7 +33,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.zincBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockZinc),
                 new Object[]{
                         "###",
                         "###",
@@ -42,7 +42,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.platinumBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockPlatinum),
                 new Object[]{
                         "###",
                         "###",
@@ -51,7 +51,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.platinumBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockPlatinum),
                 new Object[]{
                         "###",
                         "###",
@@ -60,7 +60,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.bronzeBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockBronze),
                 new Object[]{
                         "###",
                         "###",
@@ -69,7 +69,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.brassBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockBrass),
                 new Object[]{
                         "###",
                         "###",
@@ -78,7 +78,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.silverBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockSilver),
                 new Object[]{
                         "###",
                         "###",
@@ -87,7 +87,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.dragoniteBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockDragonite),
                 new Object[]{
                         "###",
                         "###",
@@ -96,7 +96,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcBlocks.orichalcumBlock),
+        GameRegistry.addRecipe(new ItemStack(GcBlocks.blockOrichalcum),
                 new Object[]{
                         "###",
                         "###",
@@ -111,55 +111,55 @@ public class GcRecpies {
         //BLOCKS -->  INGOTS
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotPlatinum,9),
                 new Object[]{
-                        GcBlocks.platinumBlock
+                        GcBlocks.blockPlatinum
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotZinc,9),
                 new Object[]{
-                        GcBlocks.zincBlock
+                        GcBlocks.blockZinc
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotOrichalcum,9),
                 new Object[]{
-                        GcBlocks.orichalcumBlock
+                        GcBlocks.blockOrichalcum
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotTime,9),
                 new Object[]{
-                        GcBlocks.tinBlock
+                        GcBlocks.blockTin
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotMythirl,9),
                 new Object[]{
-                        GcBlocks.mythirlBlock
+                        GcBlocks.blockMythirl
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotSilver,9),
                 new Object[]{
-                        GcBlocks.silverBlock
+                        GcBlocks.blockSilver
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotAluminum,9),
                 new Object[]{
-                        GcBlocks.aluminumBlock
+                        GcBlocks.blockAluminum
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotBrass,9),
                 new Object[]{
-                        GcBlocks.brassBlock
+                        GcBlocks.blockBrass
 
                 });
 
         GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotBronze,9),
                 new Object[]{
-                        GcBlocks.bronzeBlock
+                        GcBlocks.blockBronze
 
                 });
 
