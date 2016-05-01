@@ -40,7 +40,7 @@ tile.orePlatinum.name=Platinum Ore
 tile.oreSilver.name=Silver Ore
 tile.oreMythirl.name=Mithril Ore
 tile.oreOrichalcum.name=Orichalcum Ore
-tile.oreZink.name=Zink Ore
+tile.oreZink.name=Zinc Ore
 
 tile.oreRuby.name=Ruby Ore
 tile.orePeridot.name=Peridot Ore
@@ -54,6 +54,12 @@ item.ingotBronze.name=Bronze Ingot
 item.ingotcopper.name=Copper Ingot
 item.ingotBrass.name=Brass Ingot
 item.ingotDragonite.name=Dragonite Ingot
+item.ingotTime.name=Tin Ingot
+item.ingotPlatinum.name=Platinum Ingot
+item.ingotAluminum.name=Aluminum Ingot
+item.ingotZinc.name=Zinc Ingot
+item.ingotMythirl.name=Mithirl Ingot
+item.ingotOrichalcum.name=Orichalcum Ingot
 
 itemGroup.gcCreative=GuildCraft
 
