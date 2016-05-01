@@ -3,25 +3,30 @@ package anora.guildcraft.main.items;
 import anora.guildcraft.main.items.tools.GcaxeBronze;
 import anora.guildcraft.main.items.tools.GcaxeCopper;
 import anora.guildcraft.main.items.tools.GcaxeDragonite;
+import anora.guildcraft.main.items.tools.GcaxeOrichalcum;
 import anora.guildcraft.main.items.tools.GcaxeSilver;
 import anora.guildcraft.main.items.tools.GchoeBronze;
 import anora.guildcraft.main.items.tools.GchoeCopper;
 import anora.guildcraft.main.items.tools.GchoeDragonite;
 import anora.guildcraft.main.items.tools.GchoeMythirl;
+import anora.guildcraft.main.items.tools.GchoeOrichalcum;
 import anora.guildcraft.main.items.tools.GchoeSilver;
 import anora.guildcraft.main.items.tools.GcpickaxeBronze;
 import anora.guildcraft.main.items.tools.GcpickaxeCopper;
 import anora.guildcraft.main.items.tools.GcpickaxeDragonite;
 import anora.guildcraft.main.items.tools.GcpickaxeMythirl;
+import anora.guildcraft.main.items.tools.GcpickaxeOrichalcum;
 import anora.guildcraft.main.items.tools.GcpickaxeSilver;
 import anora.guildcraft.main.items.tools.GcspadeBronze;
 import anora.guildcraft.main.items.tools.GcspadeCopper;
 import anora.guildcraft.main.items.tools.GcspadeDragonite;
+import anora.guildcraft.main.items.tools.GcspadeOrichalcum;
 import anora.guildcraft.main.items.tools.GcspadeSilver;
 import anora.guildcraft.main.items.tools.GcswordBronze;
 import anora.guildcraft.main.items.tools.GcswordCopper;
 import anora.guildcraft.main.items.tools.GcswordDragonite;
 import anora.guildcraft.main.items.tools.GcswordMythirl;
+import anora.guildcraft.main.items.tools.GcswordOrichalcum;
 import anora.guildcraft.main.items.tools.GcswordSilver;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
@@ -123,7 +128,7 @@ public class GcItems
 		GameRegistry.registerItem(pickaxeBronze = new GcpickaxeBronze("pickaxeBronze", toolsBronze), "pickaxeBronze");
 		GameRegistry.registerItem(axeBronze = new GcaxeBronze("axeBronze", toolsBronze), "axeBronze");
 		GameRegistry.registerItem(spadeBronze = new GcspadeBronze("spadeBronze", toolsBronze), "spadeBronze");
-		GameRegistry.registerItem(hoeBronze = new GchoeBronze("hoeBronze", toolsBronze), "hoeCopper");
+		GameRegistry.registerItem(hoeBronze = new GchoeBronze("hoeBronze", toolsBronze), "hoeBronze");
 		GameRegistry.registerItem(swordBronze = new GcswordBronze("swordBronze", toolsBronze), "swordBronze");
 		
 		GameRegistry.registerItem(pickaxeDragonite = new GcpickaxeDragonite("pickaxeDragonite", toolsDragonite), "pickaxeDragonite");
@@ -144,11 +149,11 @@ public class GcItems
 		GameRegistry.registerItem(hoeMythirl = new GchoeMythirl("hoeMythirl", toolsMythirl), "hoeMythirl");
 		GameRegistry.registerItem(swordMythirl = new GcswordMythirl("swordMythirl", toolsMythirl), "swordMythirl");
 		
-		GameRegistry.registerItem(pickaxeCopper = new GcpickaxeCopper("pickaxeCopper", toolsCopper), "pickaxeCopper");
-		GameRegistry.registerItem(axeCopper = new GcaxeCopper("axeCopper", toolsCopper), "axeCopper");
-		GameRegistry.registerItem(spadeCopper = new GcspadeCopper("spadeCopper", toolsCopper), "spadeCopper");
-		GameRegistry.registerItem(hoeCopper = new GchoeCopper("hoeCopper", toolsCopper), "hoeCopper");
-		GameRegistry.registerItem(swordCopper = new GcswordCopper("swordCopper", toolsCopper), "swordCopper");
+		GameRegistry.registerItem(pickaxeOrichalcum = new GcpickaxeOrichalcum("pickaxeOrichalcum", toolsOrichalcum), "pickaxeOrichalcum");
+		GameRegistry.registerItem(axeOrichalcum = new GcaxeOrichalcum("axeOrichalcum", toolsOrichalcum), "axeOrichalcum");
+		GameRegistry.registerItem(spadeOrichalcum = new GcspadeOrichalcum("spadeOrichalcum", toolsOrichalcum), "spadeOrichalcum");
+		GameRegistry.registerItem(hoeOrichalcum = new GchoeOrichalcum("hoeOrichalcum", toolsOrichalcum), "hoeOrichalcum");
+		GameRegistry.registerItem(swordOrichalcum = new GcswordOrichalcum("swordOrichalcum", toolsOrichalcum), "swordOrichalcum");
 		
 		//Ingots
 		GameRegistry.registerItem(ingotCopper = new GcItem("ingotcopper"),"ingotCopper");
