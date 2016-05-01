@@ -24,7 +24,14 @@ public class GcBlock extends Block
 	
 	public Item getItemDropped(IBlockState state, Random rand, int fortune)
 	{
-		return this == GcBlocks.oreTopaz ? GcItems.Topaz : Item.getItemFromBlock(this);
+		return this == GcBlocks.oreTopaz ? GcItems.Topaz : this == GcBlocks.orePeridot ? GcItems.Peridot :
+			this == GcBlocks.oreRuby ? GcItems.Ruby : Item.getItemFromBlock(this);
+	}
+	
+	public int quantityDropped(Random random)
+	{
+		return this == GcBlocks.oreTopaz ? 1 + random.nextInt(2) : this == GcBlocks.orePeridot ? 1 + random.nextInt(2) : 
+			this == GcBlocks.oreRuby ? 1 + random.nextInt(2) : 1;
 	}
 }
 
