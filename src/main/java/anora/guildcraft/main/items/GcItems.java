@@ -17,6 +17,11 @@ public class GcItems
 	public static Item ingotMythirl;
 	public static Item ingotOrichalcum;
 	public static Item ingotZinc;
+	
+	//gems
+	public static Item Topaz;
+	public static Item Ruby;
+	public static Item Peridot;
 
 	//crafted item
 	public static Item stickDragonite;
@@ -50,6 +55,11 @@ public class GcItems
 		GameRegistry.registerItem(ingotDragonite = new GcItem("ingotDragonite"),"ingotDragonite");
 		GameRegistry.registerItem(ingotOrichalcum = new GcItem("ingotOrichalcum"),"ingotOrichalcum");
 		GameRegistry.registerItem(ingotBrass = new GcItem("ingotBrass"), "ingotBrass");
+		
+		//gems
+		GameRegistry.registerItem(Topaz = new GcItem("Topaz"), "Topaz");
+		GameRegistry.registerItem(Ruby = new GcItem("Ruby"), "Ruby");
+		GameRegistry.registerItem(Peridot = new GcItem("Peridot"), "Peridot");
 		
 		//Crafted
 		GameRegistry.registerItem(stickDragonite = new GcItem("stickDragonite"),"stickDragonite");

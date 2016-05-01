@@ -36,6 +36,11 @@ public class GcItemRender
 		regItem(GcItems.nuggetTim);
 		regItem(GcItems.nuggetZinc);
 		
+		//gems
+		regItem(GcItems.Topaz);
+		regItem(GcItems.Peridot);
+		regItem(GcItems.Ruby);
+		
 		//crafted
 		regItem(GcItems.stickDragonite);
 		

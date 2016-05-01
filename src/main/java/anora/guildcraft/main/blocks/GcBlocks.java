@@ -18,6 +18,11 @@ public class GcBlocks
 	public static Block oreOrichalcum;
 	public static Block oreZink;
 	
+	//gems
+	public static Block oreTopaz;
+	public static Block orePeridot;
+	public static Block oreRuby;
+	
 	//blocks
 	
 	//crafting block
@@ -37,6 +42,11 @@ public class GcBlocks
 		GameRegistry.registerBlock(oreDragonite = new GcBlock("oreDragonite", Material.rock, 4, 15), "oreDragonite");
 		GameRegistry.registerBlock(oreOrichalcum = new GcBlock("oreOrichalcum", Material.rock, 4, 15), "oreOrichalcum");
 		GameRegistry.registerBlock(oreZink = new GcBlock("oreZink", Material.rock, 4, 15), "oreZink");
+		
+		//gems
+		GameRegistry.registerBlock(oreTopaz = new GcBlock("oreTopaz", Material.rock, 3, 15), "oreTopaz");
+		GameRegistry.registerBlock(orePeridot = new GcBlock("orePeridot", Material.rock, 3, 15), "orePeridot");
+		GameRegistry.registerBlock(oreRuby = new GcBlock("oreRuby", Material.rock, 3, 15), "oreRuby");
 		
 		//Blocks
 		//GameRegistry.registerBlock(tableMystic = new GcBlock("tableMystic"),Material.iron)

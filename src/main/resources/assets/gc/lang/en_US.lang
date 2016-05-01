@@ -42,6 +42,14 @@ tile.oreMythirl.name=Mithril Ore
 tile.oreOrichalcum.name=Orichalcum Ore
 tile.oreZink.name=Zink Ore
 
+tile.oreRuby.name=Ruby Ore
+tile.orePeridot.name=Peridot Ore
+tile.oreTopaz.name=Topaz Ore
+
+item.Peridot.name=Peridot
+item.Ruby.name=Ruby
+item.Topaz.name=Topaz
+
 item.ingotBronze.name=Bronze Ingot
 item.ingotcopper.name=Copper Ingot
 item.ingotBrass.name=Brass Ingot

@@ -22,6 +22,11 @@ public class GcBlockRender
 		regBlock(GcBlocks.oreSilver);
 		regBlock(GcBlocks.oreTin);
 		
+		//gems
+		regBlock(GcBlocks.oreTopaz);
+		regBlock(GcBlocks.orePeridot);
+		regBlock(GcBlocks.oreRuby);
+		
 		//Blocks
 		
 	}
