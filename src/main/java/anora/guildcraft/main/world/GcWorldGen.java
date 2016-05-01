@@ -22,6 +22,10 @@ public class GcWorldGen implements IWorldGenerator
 	private WorldGenerator oreMythirl;
 	private WorldGenerator oreOrichalcum;
 	
+	private WorldGenerator oreTopaz;
+	private WorldGenerator orePeridot;
+	private WorldGenerator oreRuby;
+	
 	public GcWorldGen()
 	{
 		//overworld
@@ -33,6 +37,11 @@ public class GcWorldGen implements IWorldGenerator
 		this.orePlatinum = new GcWorldGenMinable(GcBlocks.orePlatinum.getDefaultState(), 4);
 		this.oreSilver = new GcWorldGenMinable(GcBlocks.oreSilver.getDefaultState(), 4);
 		this.oreTin = new GcWorldGenMinable(GcBlocks.oreTin.getDefaultState(), 6);
+		
+		this.oreTopaz = new GcWorldGenMinable(GcBlocks.oreTopaz.getDefaultState(), 6);
+		this.orePeridot = new GcWorldGenMinable(GcBlocks.orePeridot.getDefaultState(), 6);
+		this.oreRuby = new GcWorldGenMinable(GcBlocks.oreRuby.getDefaultState(), 6);
+		
 		//nether
 		
 		
@@ -58,6 +67,9 @@ public class GcWorldGen implements IWorldGenerator
 			this.runGenerator(this.oreTin, world, random, chunkX, chunkZ, 20, 0, 75);
 			
 			//Gems
+			this.runGenerator(this.oreTopaz, world, random, chunkX, chunkZ, 10, 3, 64);
+			this.runGenerator(this.orePeridot, world, random, chunkX, chunkZ, 10, 3, 64);
+			this.runGenerator(this.oreRuby, world, random, chunkX, chunkZ, 10, 3, 64);
 			
 			break;
 			
