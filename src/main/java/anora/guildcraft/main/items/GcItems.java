@@ -19,9 +19,9 @@ public class GcItems
 	public static Item ingotZinc;
 	
 	//gems
-	public static Item Topaz;
-	public static Item Ruby;
-	public static Item Peridot;
+	public static Item gemTopaz;
+	public static Item gemRuby;
+	public static Item gemPeridot;
 
 	//crafted item
 	public static Item stickDragonite;
@@ -36,6 +36,7 @@ public class GcItems
 	public static Item nuggetMythirl;
 	public static Item nuggetOrichalcum;
 	public static Item nuggetZinc;
+	
 	
 	//looted item
 	public static Item stoneMystic;
@@ -57,9 +58,9 @@ public class GcItems
 		GameRegistry.registerItem(ingotBrass = new GcItem("ingotBrass"), "ingotBrass");
 		
 		//gems
-		GameRegistry.registerItem(Topaz = new GcItem("Topaz"), "Topaz");
-		GameRegistry.registerItem(Ruby = new GcItem("Ruby"), "Ruby");
-		GameRegistry.registerItem(Peridot = new GcItem("Peridot"), "Peridot");
+		GameRegistry.registerItem(gemTopaz = new GcItem("Topaz"), "Topaz");
+		GameRegistry.registerItem(gemRuby = new GcItem("Ruby"), "Ruby");
+		GameRegistry.registerItem(gemPeridot = new GcItem("Peridot"), "Peridot");
 		
 		//Crafted
 		GameRegistry.registerItem(stickDragonite = new GcItem("stickDragonite"),"stickDragonite");
@@ -74,6 +75,7 @@ public class GcItems
 		GameRegistry.registerItem(nuggetMythirl = new GcItem("nuggetMythirl"),"nuggetMythirl");
 		GameRegistry.registerItem(nuggetOrichalcum = new GcItem("nuggetOrichalcum"),"nuggetOrichalcum");
 		GameRegistry.registerItem(nuggetZinc = new GcItem("nuggetZinc"),"nuggetZinc");
+		
 		
 		//looted item
 		GameRegistry.registerItem(stoneMystic = new GcItem("stoneMystic"),"stoneMystic");
