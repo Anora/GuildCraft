@@ -1,4 +1,4 @@
-package anora.guildcraft.main.items;
+package anora.guildcraft.main.items.tools;
 
 import anora.guildcraft.main.GcGlobal;
 import net.minecraft.item.ItemAxe;
