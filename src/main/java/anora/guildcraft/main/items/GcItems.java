@@ -1,10 +1,79 @@
 package anora.guildcraft.main.items;
 
+import anora.guildcraft.main.items.tools.GcaxeBronze;
+import anora.guildcraft.main.items.tools.GcaxeCopper;
+import anora.guildcraft.main.items.tools.GcaxeDragonite;
+import anora.guildcraft.main.items.tools.GcaxeSilver;
+import anora.guildcraft.main.items.tools.GchoeBronze;
+import anora.guildcraft.main.items.tools.GchoeCopper;
+import anora.guildcraft.main.items.tools.GchoeDragonite;
+import anora.guildcraft.main.items.tools.GchoeMythirl;
+import anora.guildcraft.main.items.tools.GchoeSilver;
+import anora.guildcraft.main.items.tools.GcpickaxeBronze;
+import anora.guildcraft.main.items.tools.GcpickaxeCopper;
+import anora.guildcraft.main.items.tools.GcpickaxeDragonite;
+import anora.guildcraft.main.items.tools.GcpickaxeMythirl;
+import anora.guildcraft.main.items.tools.GcpickaxeSilver;
+import anora.guildcraft.main.items.tools.GcspadeBronze;
+import anora.guildcraft.main.items.tools.GcspadeCopper;
+import anora.guildcraft.main.items.tools.GcspadeDragonite;
+import anora.guildcraft.main.items.tools.GcspadeSilver;
+import anora.guildcraft.main.items.tools.GcswordBronze;
+import anora.guildcraft.main.items.tools.GcswordCopper;
+import anora.guildcraft.main.items.tools.GcswordDragonite;
+import anora.guildcraft.main.items.tools.GcswordMythirl;
+import anora.guildcraft.main.items.tools.GcswordSilver;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class GcItems 
 {
+	//tools
+	public static ToolMaterial toolsCopper = EnumHelper.addToolMaterial("toolCopper", 1, 180, 4.0F, 1.5F, 10);
+	public static ToolMaterial toolsBronze = EnumHelper.addToolMaterial("toolsBronze", 2, 350, 6.0F, 2.0F, 15);
+	public static ToolMaterial toolsDragonite = EnumHelper.addToolMaterial("toolDragonite", 4, 180, 9.0F, 3.5F, 17);
+	public static ToolMaterial toolsSilver = EnumHelper.addToolMaterial("toolSilver", 2, 550, 6.0F, 1.8F, 16);
+	public static ToolMaterial toolsMythirl = EnumHelper.addToolMaterial("toolMythirl", 3, 1375, 12.0F, 2.5F, 12);
+	public static ToolMaterial toolsOrichalcum = EnumHelper.addToolMaterial("toolOrichalcum", 5, 180, 10.0F, 4.0F, 20);
+
+	public static Item pickaxeCopper;
+	public static Item axeCopper;
+	public static Item spadeCopper;
+	public static Item hoeCopper;
+	public static Item swordCopper;
+
+	public static Item pickaxeBronze;
+	public static Item axeBronze;
+	public static Item spadeBronze;
+	public static Item hoeBronze;
+	public static Item swordBronze;
+
+	public static Item pickaxeDragonite;
+	public static Item axeDragonite;
+	public static Item spadeDragonite;
+	public static Item hoeDragonite;
+	public static Item swordDragonite;
+
+	public static Item pickaxeSilver;
+	public static Item axeSilver;
+	public static Item spadeSilver;
+	public static Item hoeSilver;
+	public static Item swordSilver;
+
+	public static Item pickaxeMythirl;
+	public static Item axeMythirl;
+	public static Item spadeMythirl;
+	public static Item hoeMythirl;
+	public static Item swordMythirl;
+
+	public static Item pickaxeOrichalcum;
+	public static Item axeOrichalcum;
+	public static Item spadeOrichalcum;
+	public static Item hoeOrichalcum;
+	public static Item swordOrichalcum;
+	
 	//ingot
 	public static Item ingotBronze;
 	public static Item ingotCopper;
@@ -44,6 +113,43 @@ public class GcItems
 	
 	public static void initItems()
 	{
+		//Tools
+		GameRegistry.registerItem(pickaxeCopper = new GcpickaxeCopper("pickaxeCopper", toolsCopper), "pickaxeCopper");
+		GameRegistry.registerItem(axeCopper = new GcaxeCopper("axeCopper", toolsCopper), "axeCopper");
+		GameRegistry.registerItem(spadeCopper = new GcspadeCopper("spadeCopper", toolsCopper), "spadeCopper");
+		GameRegistry.registerItem(hoeCopper = new GchoeCopper("hoeCopper", toolsCopper), "hoeCopper");
+		GameRegistry.registerItem(swordCopper = new GcswordCopper("swordCopper", toolsCopper), "swordCopper");
+		
+		GameRegistry.registerItem(pickaxeBronze = new GcpickaxeBronze("pickaxeBronze", toolsBronze), "pickaxeBronze");
+		GameRegistry.registerItem(axeBronze = new GcaxeBronze("axeBronze", toolsBronze), "axeBronze");
+		GameRegistry.registerItem(spadeBronze = new GcspadeBronze("spadeBronze", toolsBronze), "spadeBronze");
+		GameRegistry.registerItem(hoeBronze = new GchoeBronze("hoeBronze", toolsBronze), "hoeCopper");
+		GameRegistry.registerItem(swordBronze = new GcswordBronze("swordBronze", toolsBronze), "swordBronze");
+		
+		GameRegistry.registerItem(pickaxeDragonite = new GcpickaxeDragonite("pickaxeDragonite", toolsDragonite), "pickaxeDragonite");
+		GameRegistry.registerItem(axeDragonite = new GcaxeDragonite("axeDragonite", toolsDragonite), "axeDragonite");
+		GameRegistry.registerItem(spadeDragonite = new GcspadeDragonite("spadeDragonite", toolsDragonite), "spadeDragonite");
+		GameRegistry.registerItem(hoeDragonite = new GchoeDragonite("hoeDragonite", toolsDragonite), "hoeDragonite");
+		GameRegistry.registerItem(swordDragonite = new GcswordDragonite("swordDragonite", toolsDragonite), "swordDragonite");
+		
+		GameRegistry.registerItem(pickaxeSilver = new GcpickaxeSilver("pickaxeSilver", toolsSilver), "pickaxeSilver");
+		GameRegistry.registerItem(axeSilver = new GcaxeSilver("axeSilver", toolsSilver), "axeSilver");
+		GameRegistry.registerItem(spadeSilver = new GcspadeSilver("spadeSilver", toolsSilver), "spadeSilver");
+		GameRegistry.registerItem(hoeSilver = new GchoeSilver("hoeSilver", toolsSilver), "hoeSilver");
+		GameRegistry.registerItem(swordSilver = new GcswordSilver("swordSilver", toolsSilver), "swordSilver");
+		
+		GameRegistry.registerItem(pickaxeMythirl = new GcpickaxeMythirl("pickaxeMythirl", toolsMythirl), "pickaxeMythirl");
+		GameRegistry.registerItem(axeMythirl = new GcaxeMythirl("axeMythirl", toolsMythirl), "axeMythirl");
+		GameRegistry.registerItem(spadeMythirl = new GcspadeMythirl("spadeMythirl", toolsMythirl), "spadeMythirl");
+		GameRegistry.registerItem(hoeMythirl = new GchoeMythirl("hoeMythirl", toolsMythirl), "hoeMythirl");
+		GameRegistry.registerItem(swordMythirl = new GcswordMythirl("swordMythirl", toolsMythirl), "swordMythirl");
+		
+		GameRegistry.registerItem(pickaxeCopper = new GcpickaxeCopper("pickaxeCopper", toolsCopper), "pickaxeCopper");
+		GameRegistry.registerItem(axeCopper = new GcaxeCopper("axeCopper", toolsCopper), "axeCopper");
+		GameRegistry.registerItem(spadeCopper = new GcspadeCopper("spadeCopper", toolsCopper), "spadeCopper");
+		GameRegistry.registerItem(hoeCopper = new GchoeCopper("hoeCopper", toolsCopper), "hoeCopper");
+		GameRegistry.registerItem(swordCopper = new GcswordCopper("swordCopper", toolsCopper), "swordCopper");
+		
 		//Ingots
 		GameRegistry.registerItem(ingotCopper = new GcItem("ingotcopper"),"ingotCopper");
 		GameRegistry.registerItem(ingotTime = new GcItem("ingotTime"),"ingotTime");
