@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:weapons/swordSilver"
+        "layer0": "gc:tools/hoeMythirl"
     },
     "display": {
         "thirdperson": {
