@@ -1,5 +1,5 @@
 {
-    "parent": "gc:block/oreZink",
+    "parent": "gc:block/blockTin",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

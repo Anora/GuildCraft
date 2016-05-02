@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "gc:blocks/oreZink"
+        "all": "gc:blocks/oreZinc"
     }
 }
