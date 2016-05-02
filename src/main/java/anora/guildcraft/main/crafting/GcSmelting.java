@@ -16,7 +16,7 @@ public class GcSmelting
 		GameRegistry.addSmelting(GcBlocks.oreOrichalcum, new ItemStack(GcItems.ingotOrichalcum), 0);
 		GameRegistry.addSmelting(GcBlocks.orePlatinum, new ItemStack(GcItems.ingotPlatinum), 0);
 		GameRegistry.addSmelting(GcBlocks.oreSilver, new ItemStack(GcItems.ingotSilver), 0);
-		GameRegistry.addSmelting(GcBlocks.oreTin, new ItemStack(GcItems.ingotTime), 0);
+		GameRegistry.addSmelting(GcBlocks.oreTin, new ItemStack(GcItems.ingotTin), 0);
 		GameRegistry.addSmelting(GcBlocks.oreZinc, new ItemStack(GcItems.ingotZinc), 0);
 	}
 }

@@ -129,7 +129,7 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotTime,9),
+        GameRegistry.addShapelessRecipe(new ItemStack(GcItems.ingotTin,9),
                 new Object[]{
                         GcBlocks.blockTin
 
@@ -221,9 +221,9 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addShapelessRecipe(new ItemStack(GcItems.nuggetTim, 9),
+        GameRegistry.addShapelessRecipe(new ItemStack(GcItems.nuggetTin, 9),
                 new Object[]{
-                        GcItems.ingotTime
+                        GcItems.ingotTin
 
                 });
 
@@ -319,12 +319,12 @@ public class GcRecpies {
 
                 });
 
-        GameRegistry.addRecipe(new ItemStack(GcItems.ingotTime),
+        GameRegistry.addRecipe(new ItemStack(GcItems.ingotTin),
                 new Object[]{
                         "###",
                         "###",
                         "###",
-                        '#', GcItems.nuggetTim
+                        '#', GcItems.nuggetTin
 
                 });
 
