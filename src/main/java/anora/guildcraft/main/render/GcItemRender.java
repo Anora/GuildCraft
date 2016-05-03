@@ -47,6 +47,37 @@ public class GcItemRender
 		regItem(GcItems.spadeSilver);
 		regItem(GcItems.swordSilver);
 		
+		//Armor
+		regItem(GcItems.copperBoots);
+		regItem(GcItems.copperChestplate);
+		regItem(GcItems.copperHelmet);
+		regItem(GcItems.copperLeggings);
+		
+		regItem(GcItems.bronzeBoots);
+		regItem(GcItems.bronzeChestplate);
+		regItem(GcItems.bronzeHelmet);
+		regItem(GcItems.bronzeLeggings);
+		
+		regItem(GcItems.dragoniteBoots);
+		regItem(GcItems.dragoniteChestplate);
+		regItem(GcItems.dragoniteHelmet);
+		regItem(GcItems.dragoniteLeggings);
+		
+		regItem(GcItems.silverBoots);
+		regItem(GcItems.silverChestplate);
+		regItem(GcItems.silverHelmet);
+		regItem(GcItems.silverLeggings);
+		
+		regItem(GcItems.mythirlBoots);
+		regItem(GcItems.mythirlChestplate);
+		regItem(GcItems.mythirlHelmet);
+		regItem(GcItems.mythirlLeggings);
+		
+		regItem(GcItems.orichalcumBoots);
+		regItem(GcItems.orichalcumChestplate);
+		regItem(GcItems.orichalcumHelmet);
+		regItem(GcItems.orichalcumLeggings);
+		
 		//Ingots
 		regItem(GcItems.ingotCopper);
 		regItem(GcItems.ingotAluminum);
