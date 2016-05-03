@@ -1,5 +1,12 @@
 package anora.guildcraft.main.items;
 
+import anora.guildcraft.main.GcGlobal;
+import anora.guildcraft.main.items.armor.GcBronzeArmor;
+import anora.guildcraft.main.items.armor.GcCopperArmor;
+import anora.guildcraft.main.items.armor.GcDragoniteArmor;
+import anora.guildcraft.main.items.armor.GcMythirlArmor;
+import anora.guildcraft.main.items.armor.GcOrichalcumArmor;
+import anora.guildcraft.main.items.armor.GcSilverArmor;
 import anora.guildcraft.main.items.tools.GcaxeBronze;
 import anora.guildcraft.main.items.tools.GcaxeCopper;
 import anora.guildcraft.main.items.tools.GcaxeDragonite;
@@ -32,19 +39,29 @@ import anora.guildcraft.main.items.tools.GcswordOrichalcum;
 import anora.guildcraft.main.items.tools.GcswordSilver;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class GcItems 
 {
-	//tools
+	//Tools
 	public static ToolMaterial toolsCopper = EnumHelper.addToolMaterial("toolCopper", 1, 180, 4.0F, 1.5F, 10);
 	public static ToolMaterial toolsBronze = EnumHelper.addToolMaterial("toolsBronze", 2, 350, 6.0F, 2.0F, 15);
 	public static ToolMaterial toolsDragonite = EnumHelper.addToolMaterial("toolDragonite", 4, 180, 9.0F, 3.5F, 17);
 	public static ToolMaterial toolsSilver = EnumHelper.addToolMaterial("toolSilver", 2, 550, 6.0F, 1.8F, 16);
 	public static ToolMaterial toolsMythirl = EnumHelper.addToolMaterial("toolMythirl", 3, 1375, 12.0F, 2.5F, 12);
 	public static ToolMaterial toolsOrichalcum = EnumHelper.addToolMaterial("toolOrichalcum", 5, 180, 10.0F, 4.0F, 20);
+	
+	//Armor
+	public static ArmorMaterial armorCopper = EnumHelper.addArmorMaterial("armorCopper", GcGlobal.MOD_ID + ":" + "Copper", 10, new int[]{2, 5, 3, 1}, 11);
+	public static ArmorMaterial armorBronze = EnumHelper.addArmorMaterial("armorBronze", GcGlobal.MOD_ID + ":" + "Bronze", 14, new int[]{2, 5, 3, 2}, 11);
+	public static ArmorMaterial armorDragonite = EnumHelper.addArmorMaterial("armorDragonite", GcGlobal.MOD_ID + ":" + "Dragonite", 39, new int[]{4, 9, 7, 3}, 15);
+	public static ArmorMaterial armorSilver = EnumHelper.addArmorMaterial("armorSilver", GcGlobal.MOD_ID + ":" + "Silver", 19, new int[]{2, 6, 5, 2}, 25);
+	public static ArmorMaterial armorMythirl = EnumHelper.addArmorMaterial("armorMythirl", GcGlobal.MOD_ID + ":" + "Mythirl", 25, new int[]{2, 7, 4, 2}, 25);
+	public static ArmorMaterial armorOrichalcum = EnumHelper.addArmorMaterial("armorOrichalcum", GcGlobal.MOD_ID + ":" + "Orichalcum", 45, new int[]{4, 10, 8, 4}, 30);
 
+	//Tools
 	public static Item pickaxeCopper;
 	public static Item axeCopper;
 	public static Item spadeCopper;
@@ -80,6 +97,37 @@ public class GcItems
 	public static Item spadeOrichalcum;
 	public static Item hoeOrichalcum;
 	public static Item swordOrichalcum;
+	
+	//Armor
+	public static Item copperHelmet;
+	public static Item copperChestplate;
+	public static Item copperLeggings;
+	public static Item copperBoots;
+	
+	public static Item bronzeHelmet;
+	public static Item bronzeChestplate;
+	public static Item bronzeLeggings;
+	public static Item bronzeBoots;
+	
+	public static Item dragoniteHelmet;
+	public static Item dragoniteChestplate;
+	public static Item dragoniteLeggings;
+	public static Item dragoniteBoots;
+	
+	public static Item silverHelmet;
+	public static Item silverChestplate;
+	public static Item silverLeggings;
+	public static Item silverBoots;
+	
+	public static Item mythirlHelmet;
+	public static Item mythirlChestplate;
+	public static Item mythirlLeggings;
+	public static Item mythirlBoots;
+	
+	public static Item orichalcumHelmet;
+	public static Item orichalcumChestplate;
+	public static Item orichalcumLeggings;
+	public static Item orichalcumBoots;
 	
 	//ingot
 	public static Item ingotBronze;
@@ -157,6 +205,36 @@ public class GcItems
 		GameRegistry.registerItem(hoeOrichalcum = new GchoeOrichalcum("hoeOrichalcum", toolsOrichalcum), "hoeOrichalcum");
 		GameRegistry.registerItem(swordOrichalcum = new GcswordOrichalcum("swordOrichalcum", toolsOrichalcum), "swordOrichalcum");
 		
+		//Armor
+		GameRegistry.registerItem(copperHelmet = new GcCopperArmor("copperHelmet", armorCopper, 1, 0),"copperHelmet");
+		GameRegistry.registerItem(copperChestplate = new GcCopperArmor("copperChestplatet", armorCopper, 1, 1),"copperChestplate");
+		GameRegistry.registerItem(copperLeggings = new GcCopperArmor("copperLeggings", armorCopper, 2, 2),"copperLeggings");
+		GameRegistry.registerItem(copperBoots = new GcCopperArmor("copperBoots", armorCopper, 1, 3),"copperBoots");
+		
+		GameRegistry.registerItem(bronzeHelmet = new GcBronzeArmor("bronzeHelmet", armorBronze, 1, 0),"bronzeHelmet");
+		GameRegistry.registerItem(bronzeChestplate = new GcBronzeArmor("bronzeChestplatet", armorBronze, 1, 1),"bronzeChestplate");
+		GameRegistry.registerItem(bronzeLeggings = new GcBronzeArmor("bronzeLeggings", armorBronze, 2, 2),"bronzeLeggings");
+		GameRegistry.registerItem(bronzeBoots = new GcBronzeArmor("bronzeBoots", armorBronze, 1, 3),"bronzeBoots");
+		
+		GameRegistry.registerItem(dragoniteHelmet = new GcDragoniteArmor("dragoniteHelmet", armorDragonite, 1, 0),"dragoniteHelmet");
+		GameRegistry.registerItem(dragoniteChestplate = new GcDragoniteArmor("dragoniteChestplatet", armorDragonite, 1, 1),"dragoniteChestplate");
+		GameRegistry.registerItem(dragoniteLeggings = new GcDragoniteArmor("dragoniteLeggings", armorDragonite, 2, 2),"dragoniteLeggings");
+		GameRegistry.registerItem(dragoniteBoots = new GcDragoniteArmor("dragoniteBoots", armorDragonite, 1, 3),"dragoniteBoots");
+		
+		GameRegistry.registerItem(silverHelmet = new GcSilverArmor("silverHelmet", armorSilver, 1, 0),"silverHelmet");
+		GameRegistry.registerItem(silverChestplate = new GcSilverArmor("silverChestplatet", armorSilver, 1, 1),"silverChestplate");
+		GameRegistry.registerItem(silverLeggings = new GcSilverArmor("silverLeggings", armorSilver, 2, 2),"silverLeggings");
+		GameRegistry.registerItem(silverBoots = new GcSilverArmor("silverBoots", armorSilver, 1, 3),"silverBoots");
+		
+		GameRegistry.registerItem(mythirlHelmet = new GcMythirlArmor("mythirlHelmet", armorMythirl, 1, 0),"mythirlHelmet");
+		GameRegistry.registerItem(mythirlChestplate = new GcMythirlArmor("mythirlChestplatet", armorMythirl, 1, 1),"mythirlChestplate");
+		GameRegistry.registerItem(mythirlLeggings = new GcMythirlArmor("mythirlLeggings", armorMythirl, 2, 2),"mythirlLeggings");
+		GameRegistry.registerItem(mythirlBoots = new GcMythirlArmor("mythirlBoots", armorMythirl, 1, 3),"mythirlBoots");
+		
+		GameRegistry.registerItem(orichalcumHelmet = new GcOrichalcumArmor("orichalcumHelmet", armorOrichalcum, 1, 0),"orichalcumHelmet");
+		GameRegistry.registerItem(orichalcumChestplate = new GcOrichalcumArmor("orichalcumChestplatet", armorOrichalcum, 1, 1),"orichalcumChestplate");
+		GameRegistry.registerItem(orichalcumLeggings = new GcOrichalcumArmor("orichalcumLeggings", armorOrichalcum, 2, 2),"orichalcumLeggings");
+		GameRegistry.registerItem(orichalcumBoots = new GcOrichalcumArmor("orichalcumBoots", armorOrichalcum, 1, 3),"orichalcumBoots");
 		
 		//Ingots
 		GameRegistry.registerItem(ingotCopper = new GcItem("ingotcopper"),"ingotCopper");

@@ -35,6 +35,12 @@ item.pickaxeDragonite.name=Dragonite Pickaxe
 item.spadeDragonite.name=Dragonite Shovel
 item.Dragonite_bow_standby.name=Dragonite Bow
 
+item.hoeOrichalcum.name=Orichalcum Hoe
+item.axeOrichalcum.name=Orichalcum Axe
+item.pickaxeOrichalcum.name=Orichalcum Pickaxe
+item.spadeOrichalcum.name=Orichalcum Shovel
+item.Orichalcum_bow_standby.name=Orichalcum Bow
+
 item.swordBronze.name=Bronze Sword
 item.swordCopper.name=Copper Sword
 item.swordDragonite.name=Dragonite Sword
@@ -55,7 +61,7 @@ tile.orePlatinum.name=Platinum Ore
 tile.oreSilver.name=Silver Ore
 tile.oreMythirl.name=Mithril Ore
 tile.oreOrichalcum.name=Orichalcum Ore
-tile.oreZink.name=Zinc Ore
+tile.oreZinc.name=Zinc Ore
 tile.oreRuby.name=Ruby Ore
 tile.orePeridot.name=Peridot Ore
 tile.oreTopaz.name=Topaz Ore
@@ -66,14 +72,14 @@ item.Ruby.name=Ruby
 item.Topaz.name=Topaz
 
 tile.blockCopper.name=Copper Block
-tile.blocktin.name=Tin Block
-tole.blockBrass.name=Brass Block
+tile.blockTin.name=Tin Block
+tile.blockBrass.name=Brass Block
 tile.blockDragonite.name=Dragonite Block
 tile.blockPlatinum.name=Platinum Block
 tile.blockMythirl.name=Mithirl Block
 tile.blockOrichalcum.name=Orichalcum Block
 tile.blockZinc.name=Zinc Block
-tile.blockbronze.name=Bronze Block
+tile.blockBronze.name=Bronze Block
 tile.blockAluminum.name=Aluminum Block
 tile.blockSilver.name=Silver Block
 
