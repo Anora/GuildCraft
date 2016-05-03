@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:weapons/bronz_sword"
+        "layer0": "gc:weapons/swordBronze"
     },
     "display": {
         "thirdperson": {

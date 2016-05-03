@@ -1,22 +1,4 @@
-item.dragonite_nugget.name=Dragonite Nugget
-item.dragonite_stick.name=Dragonite Stick
-item.mystic_stone.name=Mystic Stone
-itemGroup.tabguildcraft=GuildCraft
 item.mystic_rod.name=Mystic Rod
-item.bronze_hoe.name=Bronz Hoe
-item.bronze_axe.name=Bronze Axe
-item.bronze_pick.name=Bronze Pickaxe
-item.bronze_shovel.name=Bronze Shove
-item.bronze_ingot.name=Bronze Ingot
-item.copper_hoe.name=Copper Hoe
-item.copper_axe.name=Copper Axe
-item.copper_pick.name=Copper Pickaxe
-item.copper_shovel.name=Copper Shovel
-item.dragonite_hoe.name=Dragonite Hoe
-item.dragonite_axe.name=Dragonite Axe
-item.dragonite_pick.name=Dragonite Pickaxe
-item.dragonite_shovel.name=Dragonite Shovel
-item.dragonite_bow_standby.name=Dragonite Bow
 item.mystic_hoe.name=Mystic Hoe
 item.mystic_axe.name=Mystic Axe
 item.mystic_pick.name=Mystic Pickaxe
@@ -26,11 +8,44 @@ item.orichalcum_hoe.name=Orichalcum Hoe
 item.orichalcum_axe.name=Orichalcum Axe
 item.orichalcum_pick.name=Orichalcum Pickaxe
 item.orichalcum_shovel.name=Orichalcum Shovel
-item.bronze_sword.name=Bronze Sword
-item.copper_sword.name=Copper Sword
-item.dragonite_sword.name=Dragonite Sword
-item.mystic_sword.name=Mystic Sword
-item.orichalcum_sword=Orichalcum Sword
+
+item.hoeCopper.name=Copper Hoe
+item.axeCopper.name=Copper Axe
+item.pickaxeCopper.name=Copper Pickaxe
+item.spadeCopper.name=Copper Shovel
+
+item.axeBronze.name=Bronze Axe
+item.hoeBronze.name=Bronz Hoe
+item.pickaxeBronze.name=Bronze Pickaxe
+item.spadeDronze.name=Bronze Shovel
+
+item.spadeSilver.name=Silver Shovel
+item.pickaxeSilver.name=Silver Pickaxe
+item.hoeSilver.name=Silver Pickaxe
+item.axeSilver.name=Silver Axe
+
+item.pickaxeMythirl.name=Mithirl Pickaxe
+item.spadeMythirl.name=Mithril Shovel
+item.hoeMythirl.name=Mithirl Shovel
+item.axeMythirl.name=Mithirl Axe
+
+item.hoeDragonite.name=Dragonite Hoe
+item.axeDragonite.name=Dragonite Axe
+item.pickaxeDragonite.name=Dragonite Pickaxe
+item.spadeDragonite.name=Dragonite Shovel
+item.Dragonite_bow_standby.name=Dragonite Bow
+
+item.swordBronze.name=Bronze Sword
+item.swordCopper.name=Copper Sword
+item.swordDragonite.name=Dragonite Sword
+item.swordMystic.name=Mystic Sword
+item.swordOrichalcum.name=Orichalcum Sword
+item.swordMythirl.name=Mithirl Sword
+item.swordSilver.name=Silver Sword
+
+item.stickDragonite.name=Dragonite Stick
+
+item.stoneMystic.name=Mystic Stone
 
 tile.oreDragonite.name=Dragonite Ore
 tile.oreAluminum.name=Aluminum Ore
@@ -41,27 +56,51 @@ tile.oreSilver.name=Silver Ore
 tile.oreMythirl.name=Mithril Ore
 tile.oreOrichalcum.name=Orichalcum Ore
 tile.oreZink.name=Zinc Ore
-
 tile.oreRuby.name=Ruby Ore
 tile.orePeridot.name=Peridot Ore
 tile.oreTopaz.name=Topaz Ore
+tile.oreZinc.name Zinc Ore
 
 item.Peridot.name=Peridot
 item.Ruby.name=Ruby
 item.Topaz.name=Topaz
 
+tile.blockCopper.name=Copper Block
+tile.blocktin.name=Tin Block
+tole.blockBrass.name=Brass Block
+tile.blockDragonite.name=Dragonite Block
+tile.blockPlatinum.name=Platinum Block
+tile.blockMythirl.name=Mithirl Block
+tile.blockOrichalcum.name=Orichalcum Block
+tile.blockZinc.name=Zinc Block
+tile.blockbronze.name=Bronze Block
+tile.blockAluminum.name=Aluminum Block
+tile.blockSilver.name=Silver Block
+
+item.nuggetMythirl.name=Mithril Nugget
+item.nuggetDragonite.name=Dragonite Nugget
+item.nuggetBronze.name=Bronze Nugget
+item.nuggetCopper.name=Copper Nugget
+item.nuggetBrass.name=Brass Nugget
+item.nuggetAluminum.name=Aluminum Nugget
+item.nuggetSilver.name=Silver Nugget
+item.nuggetPlatinum.name=Platinum Nugget
+item.nuggetOrichalcum.name=Orichalcum Nugget
+item.nuggetZinc.name=Zinc Nugget
+item.nuggetTin.name=Tin Nugget
+
 item.ingotBronze.name=Bronze Ingot
 item.ingotcopper.name=Copper Ingot
 item.ingotBrass.name=Brass Ingot
 item.ingotDragonite.name=Dragonite Ingot
-item.ingotTime.name=Tin Ingot
+item.ingotTin.name=Tin Ingot
 item.ingotPlatinum.name=Platinum Ingot
 item.ingotAluminum.name=Aluminum Ingot
 item.ingotZinc.name=Zinc Ingot
 item.ingotMythirl.name=Mithirl Ingot
 item.ingotOrichalcum.name=Orichalcum Ingot
+item.ingotSilver.name=Silver Ingot
 
 itemGroup.gcCreative=GuildCraft
 
-
-tile.mystic_crafting_table.name= Mystic Crafting table
+tile.mystic_crafting_table.name=Mystic Crafting Table
