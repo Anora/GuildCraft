@@ -10,6 +10,7 @@ public class GcItemRender
 {
 	public static void registerItemRender()
 	{
+		//tools
 		regItem(GcItems.axeBronze);
 		regItem(GcItems.hoeBronze);
 		regItem(GcItems.pickaxeBronze);
