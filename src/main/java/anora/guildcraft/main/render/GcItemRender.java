@@ -10,6 +10,42 @@ public class GcItemRender
 {
 	public static void registerItemRender()
 	{
+		regItem(GcItems.axeBronze);
+		regItem(GcItems.hoeBronze);
+		regItem(GcItems.pickaxeBronze);
+		regItem(GcItems.spadeBronze);
+		regItem(GcItems.swordBronze);
+		
+		regItem(GcItems.axeCopper);
+		regItem(GcItems.pickaxeCopper);
+		regItem(GcItems.hoeCopper);
+		regItem(GcItems.spadeCopper);
+		regItem(GcItems.swordCopper);
+		
+		regItem(GcItems.axeDragonite);
+		regItem(GcItems.hoeDragonite);
+		regItem(GcItems.pickaxeDragonite);
+		regItem(GcItems.spadeDragonite);
+		regItem(GcItems.swordDragonite);
+		
+		regItem(GcItems.axeMythirl);
+		regItem(GcItems.hoeMythirl);
+		regItem(GcItems.pickaxeMythirl);
+		regItem(GcItems.spadeMythirl);
+		regItem(GcItems.swordMythirl);
+		
+		regItem(GcItems.axeOrichalcum);
+		regItem(GcItems.hoeOrichalcum);
+		regItem(GcItems.pickaxeOrichalcum);
+		regItem(GcItems.spadeOrichalcum);
+		regItem(GcItems.swordOrichalcum);
+		
+		regItem(GcItems.axeSilver);
+		regItem(GcItems.hoeSilver);
+		regItem(GcItems.pickaxeSilver);
+		regItem(GcItems.spadeSilver);
+		regItem(GcItems.swordSilver);
+		
 		//Ingots
 		regItem(GcItems.ingotCopper);
 		regItem(GcItems.ingotAluminum);
