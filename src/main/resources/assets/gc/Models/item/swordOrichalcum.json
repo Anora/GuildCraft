@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:weapons/swordOrichalcum"
+        "layer0": "gc:items/swordOrichalcum"
     },
     "display": {
         "thirdperson": {

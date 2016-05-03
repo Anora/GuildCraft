@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:tools/hoeSilver"
+        "layer0": "gc:items/hoeSilver"
     },
     "display": {
         "thirdperson": {

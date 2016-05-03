@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:weapons/dragonite_sword"
+        "layer0": "gc:items/dragonite_sword"
     },
     "display": {
         "thirdperson": {

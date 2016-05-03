@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:tools/hoeMythirl"
+        "layer0": "gc:items/hoeMythirl"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:tools/spadeSilver"
+        "layer0": "gc:items/spadeSilver"
     },
     "display": {
         "thirdperson": {

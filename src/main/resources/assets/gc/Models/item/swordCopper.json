@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "gc:weapons/copper_sword"
+        "layer0": "gc:items/copper_sword"
     },
     "display": {
         "thirdperson": {
