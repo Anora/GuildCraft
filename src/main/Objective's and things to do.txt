@@ -9,34 +9,34 @@ Item to put in:
     Dragonite stick         done(will be retextured)
     Mystic rod              done(will be retextured)
     Mystic stone            done(will be retextured)
-    Dragonite Pick			needs stats and texture
-    Dragonite axe    		needs stats and texture
-    Dragonite shovel		needs stats and texture
-    Dragonite hoe			needs stats and texture
-    Dragonite bow			needs stats and texture
-    Mystic pick				needs stats and texture
-    Mystic axe				needs stats and texture
-    Mystic shovel			needs stats and texture
-    Mystic how				needs stats and texture
-    Mystic bow				needs stats and texture
+    Dragonite Pick			texture
+    Dragonite axe    		texture
+    Dragonite shovel		texture
+    Dragonite hoe			texture
+    Dragonite bow			texture
+    Mystic pick				texture
+    Mystic axe				texture
+    Mystic shovel			texture
+    Mystic how				texture
+    Mystic bow				texture
     Coper pick				done(will be retextured)
     Coper axe				done(will be retextured)
     Coper shovel			done(will be retextured)
-    Coper hoe				needs stats and texture
+    Coper hoe				texture
     Bronz pick				done(will be retextured)
     Bronz axe				done(will be retextured)
     Bronz shovel			done(will be retextured)
-    Bronz hoe				needs stats and texture
-    Orichalcum pick			needs stats and texture
-    Orichalcum axe			needs stats and texture
-    Orichalcum shovel		needs stats and texture
-    Orichalcum hoe			needs stats and texture
+    Bronz hoe				ntexture
+    Orichalcum pick			done
+    Orichalcum axe			done
+    Orichalcum shovel		done
+    Orichalcum hoe			done
     Bronz ingot				done(will be retextured)
 	Brass ingot				done(will be retextured)
 	Coper ingot				done(will be retextured)
 	Silver ingot            done
+    Helmet of revealing     to be implemented
 	more to come(maybe)
-    Helmet of revealing(Will get rid of void fog) (will need item texture)
     
 Blocks/Ore to put in
     Dragionite ore          done
@@ -46,7 +46,7 @@ Blocks/Ore to put in
     Aluminum ore			done
     Platnum ore				done
     Mythirll ore			done
-    Orichalcum ore			needs texture
+    Orichalcum ore			done
 	Silver ore				done
     more to come(maybe)
     
@@ -86,6 +86,9 @@ How I would like this to work is pretty simmilar to how the one in GuildWars 2 w
 randomly or specific and get an out put (right combination chance of better version, special 
 combination = legendary item. No of these items will be from the game but all item's from Minecraft
 or its mods depending on implementation
+  
+Helmet of Revealing:
+Must remove void fog upong waring and can show nodes as well is made of dragonite  
   
 Mobs:
 All mobs will have standard drop rates on Minecraft items or moded items they can wild, but will have a

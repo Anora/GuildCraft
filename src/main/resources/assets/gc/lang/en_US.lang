@@ -17,7 +17,7 @@ item.spadeCopper.name=Copper Shovel
 item.axeBronze.name=Bronze Axe
 item.hoeBronze.name=Bronz Hoe
 item.pickaxeBronze.name=Bronze Pickaxe
-item.spadeDronze.name=Bronze Shovel
+item.spadeBronze.name=Bronze Shovel
 
 item.spadeSilver.name=Silver Shovel
 item.pickaxeSilver.name=Silver Pickaxe
@@ -48,6 +48,31 @@ item.swordMystic.name=Mystic Sword
 item.swordOrichalcum.name=Orichalcum Sword
 item.swordMythirl.name=Mithirl Sword
 item.swordSilver.name=Silver Sword
+
+item.orichalcumHelmet.name=Orichalcum Helmet
+item.orichalcumChestplate.name=Orichalcum Chestplate
+item.orichalcumLeggings.name=Orichalcum Leggings
+item.orichalcumBoots.name=Orichalcum Boots
+
+item.silverHelmet.name=Silver Helmet
+item.silverChestplate.name=Silver Chestplate
+item.silverLeggings.name=Silver Leggings
+item.silverBoots.name=Silver Boots
+
+item.mythirlHelmet.name=Mythirl Helmet
+item.mythirlChestplate.name=Mythirl Chestplate
+item.mythirlLeggings.name=Mythirl Leggings
+item.mythirlBoots.name=Mythirl Boots
+
+item.copperHelmet.name=Copper Helmet
+item.copperChestplate.name=Copper Chestplate
+item.copperLeggings.name=Copper Leggings
+item.copperBoots.name=Copper Boots
+
+item.bronzeHelmet.name=Bronze Helmet
+item.bronzeChestplate.name=Bronze Chestplate
+item.bronzeLeggings.name=Bronze Leggings
+item.bronzeBoots.name=Bronze Boots
 
 item.stickDragonite.name=Dragonite Stick
 
