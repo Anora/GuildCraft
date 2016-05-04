@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "items/silverLeggings"
+        "layer0": "gc:items/silverLeggings"
     },
     "display": {
         "thirdperson": {

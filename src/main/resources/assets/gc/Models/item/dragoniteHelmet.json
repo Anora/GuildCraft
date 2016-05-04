@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "items/dragoniteHelmet"
+        "layer0": "gc:items/dragoniteHelmet"
     },
     "display": {
         "thirdperson": {

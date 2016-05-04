@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "items/orichalcumChestplate"
+        "layer0": "gc:items/orichalcumChestplate"
     },
     "display": {
         "thirdperson": {

@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "items/silverChestplate"
+        "layer0": "gc:items/silverChestplate"
     },
     "display": {
         "thirdperson": {
