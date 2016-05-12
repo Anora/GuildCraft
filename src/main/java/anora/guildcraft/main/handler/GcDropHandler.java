@@ -14,12 +14,14 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class GcDropHandler 
 {
+	private Random rand = new Random();
+	
 	@SubscribeEvent
 	public void addEntityDrop(LivingDropsEvent event)
 	{
 		if (event.entity instanceof EntitySkeleton)
 		{
-			ItemStack itemstack = new ItemStack(GcItems.stoneMystic, 1);
+			ItemStack itemstack = new ItemStack(GcItems.stoneMystic, rand.nextInt(1));
 			event.drops.add(new EntityItem(event.entity.worldObj, event.entity.posX, event.entity.posY, event.entity.posZ, itemstack));
 		}
 	}
@@ -29,7 +31,7 @@ public class GcDropHandler
 	{
 		if(event.state.getBlock() == Blocks.mob_spawner)
 		{
-			Random rand = new Random();
+		
 			
 			ItemStack holding = event.harvester.inventory.getStackInSlot(event.harvester.inventory.currentItem);
 			if(holding != null && holding.getItem() instanceof GcpickaxeCopper)
