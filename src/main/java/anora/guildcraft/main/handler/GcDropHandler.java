@@ -7,6 +7,7 @@ import anora.guildcraft.main.items.tools.GcpickaxeCopper;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.world.BlockEvent.HarvestDropsEvent;
@@ -34,7 +35,7 @@ public class GcDropHandler
 		
 			
 			ItemStack holding = event.harvester.inventory.getStackInSlot(event.harvester.inventory.currentItem);
-			if(holding != null && holding.getItem() instanceof GcpickaxeCopper)
+			if(holding != null && holding.getItem() instanceof ItemPickaxe)
 			{
 				event.drops.clear();
 				event.drops.add(new ItemStack(GcItems.stoneMystic, rand.nextInt(1)));
